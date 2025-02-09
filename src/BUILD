@@ -32,7 +32,7 @@ py_binary(
     deps = [
         ":pandas_ops",
         ":polars_ops",
-        "//helpers:helpers",
+        "//src/helpers:helpers",
     ],
 )
 
